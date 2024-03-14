@@ -1,0 +1,27 @@
+{
+  "name": "shopping-cart-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dfghjkcvbnmnbvcx/shopping-cart-app.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dfghjkcvbnmnbvcx/shopping-cart-app/issues"
+  },
+  "homepage": "https://github.com/dfghjkcvbnmnbvcx/shopping-cart-app#readme",
+  "dependencies": {
+    "@types/node": "^20.10.6",
+    "@types/qs": "^6.9.7",
+    "@types/ws": "^8.5.10",
+    "rimraf": "^3.0.2",
+    "advanced-math-toolkit": "1.0.0",
+    "shopping-cart-app": "1.0.0"
+  }
+}
