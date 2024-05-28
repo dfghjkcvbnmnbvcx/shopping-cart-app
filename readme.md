@@ -77,3 +77,15 @@ calculateTotal()
   .catch(error => console.error(error));
 </code>
 </pre>
+
+### Getting Cart Items
+
+<p>Use the <code>getCartItems</code> function to get all items in the cart:</p>
+
+<pre>
+<code>
+getCartItems()
+  .then(cart => console.log(cart))
+  .catch(error => console.error(error));
+</code>
+</pre>
