@@ -41,3 +41,15 @@ addItem('item1', 2, 9.99)
   .catch(error => console.error(error));
 </code>
 </pre>
+
+### Removing Items
+
+<p>Use the <code>removeItem</code> function to remove an item from the cart:</p>
+
+<pre>
+<code>
+removeItem('item1')
+  .then(cart => console.log(cart))
+  .catch(error => console.error(error));
+</code>
+</pre>
