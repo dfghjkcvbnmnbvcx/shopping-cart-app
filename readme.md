@@ -137,3 +137,7 @@ getCartItems()
 <ul>
   <li><strong>Returns</strong>: A promise that resolves to the cart items.</li>
 </ul>
+
+## License
+
+<p>This project is licensed under the MIT License.</p>
