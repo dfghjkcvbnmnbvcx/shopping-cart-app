@@ -29,3 +29,15 @@ npm install shopping-cart-app
 const { addItem, removeItem, updateItemQuantity, calculateTotal, getCartItems } = require('shopping-cart-app');
 </code>
 </pre>
+
+### Adding Items
+
+<p>Use the <code>addItem</code> function to add an item to the cart:</p>
+
+<pre>
+<code>
+addItem('item1', 2, 9.99)
+  .then(cart => console.log(cart))
+  .catch(error => console.error(error));
+</code>
+</pre>
