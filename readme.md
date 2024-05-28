@@ -12,3 +12,10 @@
   <li>Persist cart items across sessions</li>
 </ul>
 
+## Installation
+
+<pre>
+<code>
+npm install shopping-cart-app
+</code>
+</pre>
