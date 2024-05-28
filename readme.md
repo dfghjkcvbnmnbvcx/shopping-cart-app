@@ -89,3 +89,16 @@ getCartItems()
   .catch(error => console.error(error));
 </code>
 </pre>
+
+## API
+
+### addItem(name, quantity, price)
+
+<p>Adds an item to the cart.</p>
+
+<ul>
+  <li><strong>name</strong> (string): The name of the item.</li>
+  <li><strong>quantity</strong> (number): The quantity of the item.</li>
+  <li><strong>price</strong> (number): The price of the item.</li>
+  <li><strong>Returns</strong>: A promise that resolves to the updated cart.</li>
+</ul>
