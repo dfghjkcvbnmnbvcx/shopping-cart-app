@@ -129,3 +129,11 @@ getCartItems()
 <ul>
   <li><strong>Returns</strong>: A promise that resolves to the total cost.</li>
 </ul>
+
+### getCartItems()
+
+<p>Gets all items in the cart.</p>
+
+<ul>
+  <li><strong>Returns</strong>: A promise that resolves to the cart items.</li>
+</ul>
