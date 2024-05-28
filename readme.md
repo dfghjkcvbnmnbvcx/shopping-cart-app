@@ -19,3 +19,13 @@
 npm install shopping-cart-app
 </code>
 </pre>
+
+## Usage
+
+<p>First, import the required functions from the library:</p>
+
+<pre>
+<code>
+const { addItem, removeItem, updateItemQuantity, calculateTotal, getCartItems } = require('shopping-cart-app');
+</code>
+</pre>
