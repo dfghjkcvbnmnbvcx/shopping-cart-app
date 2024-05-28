@@ -102,3 +102,30 @@ getCartItems()
   <li><strong>price</strong> (number): The price of the item.</li>
   <li><strong>Returns</strong>: A promise that resolves to the updated cart.</li>
 </ul>
+
+### removeItem(name)
+
+<p>Removes an item from the cart.</p>
+
+<ul>
+  <li><strong>name</strong> (string): The name of the item to remove.</li>
+  <li><strong>Returns</strong>: A promise that resolves to the updated cart.</li>
+</ul>
+
+### updateItemQuantity(name, quantity)
+
+<p>Updates the quantity of an item in the cart.</p>
+
+<ul>
+  <li><strong>name</strong> (string): The name of the item.</li>
+  <li><strong>quantity</strong> (number): The new quantity of the item.</li>
+  <li><strong>Returns</strong>: A promise that resolves to the updated cart.</li>
+</ul>
+
+### calculateTotal()
+
+<p>Calculates the total cost of items in the cart.</p>
+
+<ul>
+  <li><strong>Returns</strong>: A promise that resolves to the total cost.</li>
+</ul>
