@@ -53,3 +53,15 @@ removeItem('item1')
   .catch(error => console.error(error));
 </code>
 </pre>
+
+### Updating Item Quantities
+
+<p>Use the <code>updateItemQuantity</code> function to update the quantity of an item in the cart:</p>
+
+<pre>
+<code>
+updateItemQuantity('item1', 3)
+  .then(cart => console.log(cart))
+  .catch(error => console.error(error));
+</code>
+</pre>
