@@ -65,3 +65,15 @@ updateItemQuantity('item1', 3)
   .catch(error => console.error(error));
 </code>
 </pre>
+
+### Calculating Total Cost
+
+<p>Use the <code>calculateTotal</code> function to calculate the total cost of items in the cart:</p>
+
+<pre>
+<code>
+calculateTotal()
+  .then(total => console.log('Total cost:', total))
+  .catch(error => console.error(error));
+</code>
+</pre>
